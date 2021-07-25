@@ -35,7 +35,7 @@ export function EstoqueHarryPotter(){
           <form id="form-user" >              
             <input type="number" placeholder="Preço" value={priceLunaLovegood} onChange={e => setPriceLunaLovegood(e.target.value)}/>
             <input type="number" placeholder="Qtde em estoque" value={stockLunaLovegood} onChange={e => setStockLunaLovegood(e.target.value)} />
-              <input type="reset" value="Limpar dados"/><input value="Atualizar" type="submit" onClick={() => handleProduct("Silvie", priceLunaLovegood, stockLunaLovegood)} />
+              <input type="reset" value="Limpar dados"/><input value="Atualizar" type="submit" onClick={() => handleProduct("Luna Lovegood", priceLunaLovegood, stockLunaLovegood)} />
           </form>
         </div>    
         <div className="item">
