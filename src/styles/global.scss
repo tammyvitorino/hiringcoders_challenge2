@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: -webkit-center;
 }
 
 body {
   font: 400 1rem 'Poppins', sans-serif;
   -webkit-font-smoothing: auto;
-  width: 100%;
+  width: 85%;
   background: #f8f8f8;
   color: #29292e;
 }
@@ -106,6 +107,13 @@ input {
 .grid {
   grid-gap: 1rem;
   display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1000px) {
+  .grid {
+    flex-direction: row;
+  }
 }
 
 form {
@@ -181,7 +189,9 @@ form {
 }
 
 #product-list {
-  margin: 0rem 5rem;
+  @media (min-width: 1000px) {
+    padding: 0 5rem;
+  }
 
   img {
     width: 80%;
@@ -197,7 +207,10 @@ form {
   margin-top: 0rem;
   align-items: stretch;
   height: 100vh;
-  padding: 0 10rem;
+
+  @media (min-width: 1000px) {
+    padding: 0 10rem;
+  }
 
   #form-user {
     width: 100%;
@@ -232,8 +245,11 @@ form {
   display: flex;
   max-width: 100vw;
   margin: 0 auto;
+  flex-direction: column;
 
   @media (min-width: 1000px) {
+    flex-direction: row;
+
     .item {
       flex: 1 1;
     }
