@@ -1,0 +1,24 @@
+{
+ "produtos": [
+  {
+   "id": 1,
+   "image": "https://tamara.vitorino.net.br/hc2/sylvie.png",
+   "name": "Funko Sylvie"
+  },
+  {
+   "id": 2,
+   "image": "https://tamara.vitorino.net.br/hc2/loki.png",
+   "name": "Funko Sylvie"
+  },
+  {
+   "id": 3,
+   "image": "https://tamara.vitorino.net.br/hc2/kid_loki.png",
+   "name": "Funko Sylvie"
+  },
+  {
+   "id": 4,
+   "image": "https://tamara.vitorino.net.br/hc2/mobius.png",
+   "name": "Funko Sylvie"
+  }
+ ]
+}
